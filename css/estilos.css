@@ -1,0 +1,422 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+
+* {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* header */
+html {
+  width: 1024px;
+}
+
+.tituloHeader {
+  background-color: #222222;
+  color: #f3f3f3;
+  display: flex;
+  font-size: 10px;
+  height: 20px;
+  justify-content: space-between;
+  width: 1024px;
+}
+
+.iconoH {
+  display: none;
+}
+.tituloSecundario {
+  left: 70px;
+  position: relative;
+}
+.menuIdioma ul {
+  display: flex;
+  justify-content: space-around;
+}
+.menuIdioma li {
+  list-style: none;
+  padding: 0 20px;
+}
+.encabezadoSecundario {
+  align-items: center;
+  background-color: #f0a83e;
+  display: flex;
+  height: 62px;
+  justify-content: space-between;
+}
+
+.menuNavegacion img{
+  visibility: hidden;
+}
+.menuNavegacion {
+  color: #f3f3f3;
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  position: relative;
+  right: 20px;
+  width: 500px;
+}
+
+
+
+.menuNavegacion li:hover::before{
+
+  content: url(../img/pawprint\ 122.png);
+}
+
+.logo {
+  position: relative;
+  left: 20px;
+}
+img {
+  display: inline;
+}
+.imagenPrincipal {
+  align-items: center;
+  background-image: url(../img/bowl-and-pet-daities-on-green-background\ 1.png);
+  background-size: cover;
+  display: flex;
+  height: 409px;
+  justify-content: flex-end;
+  width: 1023px;
+}
+.contenedorAux {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  height: 130px;
+  justify-content: space-between;
+  position: relative;
+  right: 80px;
+  width: fit-content;
+}
+
+.imagenTitulo1 {
+  background-color: #f3f3f3;
+  border-radius: 5px;
+  color: #3c2313;
+  font-weight: 500;
+  padding: 10px;
+  width: fit-content;
+}
+.contenedorAux input {
+  background-color: #f0a83e;
+  border-radius: 5px;
+  color: #f3f3f3;
+  font-size: 16px;
+  height: 49px;
+  width: 141px;
+}
+
+.contenedorAux h3 {
+  font-weight: 400;
+  font-size: 16px;
+}
+.productosDestacados {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+.productosDestacados img {
+  height: 71px;
+  width: 67px;
+}
+.productosDestacados h2 {
+  color: #3c2313;
+  font-size: 40px;
+  font-weight: 700;
+}
+.productosDestacados > p {
+  color: #666666;
+  display: flex;
+  font-size: 15px;
+  font-weight: 400;
+  justify-content: space-around;
+  padding: 10px;
+  width: 300px;
+}
+.articulos {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 30px;
+  width: 870px;
+}
+.imgArticulo img {
+  height: 268.86px;
+  width: 265px;
+}
+.imgArticulo h3,
+.imgArticulo p {
+  text-align: center;
+}
+
+.imgArticulo p {
+  color: #f0a83e;
+}
+.imgArticulo h3 {
+  color: #3c2313;
+  font-size: 15px;
+  font-weight: 700;
+}
+.imgArticulo {
+  background-color: #fbfaf6;
+}
+
+/* .contacto div {
+  align-items: center;
+  background-color: #3c2313;
+  border-radius: 15px;
+  color: #f3f3f3;
+  display: flex;
+  font-size: 9px;
+  height: 40px;
+  width: 340px;
+} */
+
+.contacto input{
+  height: 40px;
+  width: 340px;
+  border-radius: 15px;
+  background-color: #3c2313;
+  color: #f3f3f3;
+  padding: 3px;
+}
+ 
+.contacto input::placeholder {
+  color: white;
+}
+
+
+input:invalid{
+  border-color: red;
+}
+input:valid{
+  border-color: green;
+  border-width: 4px;
+}
+
+.ingresarMail input{
+  align-items: center;
+  background-color: #f3f3f3;
+  border-radius: 15px;
+  color: #a0a0a0;
+  display: flex;
+  font-size: 9px;
+  height: 40px;
+  width: 271px;
+}
+
+.contacto h2 {
+  color: #3c2313;
+  font-size: 25px;
+  font-weight: 700;
+}
+.contacto {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  height: 250px;
+  justify-content: space-around;
+  margin-top: 30px;
+}
+.contacto h3 {
+  left: 10px;
+  position: relative;
+}
+.enviarForm {
+  margin-top: 20px;
+}
+.enviarForm input {
+  border-radius: 15px;
+  height: 34px;
+  width: 110px;
+}
+#bt1 {
+  background-color: #8a8787;
+  color: #ffffff;
+}
+#bt2 {
+  background-color: #f0a83e;
+  color: #ffffff;
+}
+
+.suscripcion {
+  align-items: center;
+  background-color: #f0a83e;
+  display: flex;
+  height: 60px;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+.suscripcion > div {
+  display: flex;
+}
+
+.contenedorSuscrip {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  left: 20px;
+  position: relative;
+  width: 320px;
+}
+
+.suscripcion > div > h3 {
+  color: #f3f3f3;
+}
+.localizacion {
+  background-color: #3c2313;
+  height: 284px;
+}
+
+.suscripcionCorreo {
+  display: flex;
+}
+
+.ingresarMail h3 span {
+  left: 10px;
+  position: relative;
+}
+
+
+
+.suscribirse input{
+  align-items: center;
+  background-color: #3c2313;
+  border-radius: 15px;
+  color: #f3f3f3;
+  display: flex;
+  font-size: 9px;
+  font-weight: bold;
+  height: 34px;
+  justify-content: center;
+  position: relative;
+  top: 3px;
+  width: 70px;
+}
+
+.localizacion {
+  display: flex;
+  flex-direction: column;
+  height: 284px;
+  justify-content: space-around;
+}
+
+.titLocalidad,
+.titTelefono,
+.titMail {
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.localizacion section img {
+  height: 66px;
+  width: 66px;
+}
+.renglon {
+  display: flex;
+  margin-left: 20px;
+}
+.bloqueIzq {
+  display: flex;
+}
+.bloqueDerecho {
+  color: #f3f3f3;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 0.9;
+}
+
+.subtitLocalidad,
+.subtitTelefono,
+.subtitMail {
+  font-size: 10px;
+  font-weight: bold;
+}
+.localizacion .renglon .logoR {
+  align-items: center;
+  display: flex;
+}
+
+/* FOOTER */
+
+footer {
+  align-items: center;
+  background-color: #222222;
+  color: #ffffff;
+  display: flex;
+  height: 20px;
+  justify-content: center;
+}
+
+footer h3 {
+  font-size: 10px;
+  font-weight: bold;
+  text-align: center;
+}
+
+/* DISPOSITIVOS MOBILE */
+
+@media (max-width: 480px) {
+  html {
+    width: 100vw;
+  }
+  .tituloHeader {
+    display: none;
+  }
+  .logo {
+    width: 50vw;
+  }
+  .logo img {
+    width: 30vw;
+  }
+
+  nav {
+    display: none;
+  }
+
+  .iconoH {
+    color: white;
+    display: block;
+    font-size: 8vw;
+    position: relative;
+    right: 20px;
+  }
+
+  .imagenPrincipal {
+    width: 100vw;
+  }
+  .articulos {
+    align-items: center;
+    flex-direction: column;
+    width: 100vw;
+  }
+  .productosDestacados h2 {
+    text-align: center;
+  }
+  .contenedorAux {
+    border: solid red 2px;
+  }
+  .contenedorAux h3,
+  .contenedorAux input {
+    align-self: flex-end;
+  }
+
+  .suscripcion {
+    flex-direction: column;
+    height: 90px;
+  }
+
+  .suscripcionCorreo {
+    margin-bottom: 20px;
+  }
+  .logoR img {
+    display: none;
+  }
+
+  .renglonMobil {
+    justify-content: center;
+  }
+}
